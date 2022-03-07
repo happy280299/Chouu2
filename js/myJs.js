@@ -139,7 +139,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/profile.php?id=100009912938134&sk=photos_by";
+            window.location = "https://www.facebook.com/photo.php?fbid=1626785357661880&set=pb.100009912938134.-2207520000..&type=3";
           },
         });
       }

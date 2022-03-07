@@ -78,7 +78,7 @@ header h4 {
     padding: 3px;
     -webkit-transition: all 0.3s ease-out;
   }
-  .swal2-image {
-    object-fit: contain;
-  }
+}
+.swal2-image {
+  object-fit: contain;
 }
