@@ -64,7 +64,7 @@ header h4 {
     position: absolute;
     display: inline-block;
     left: 7%; 
-    top: 30vh;
+    top: 40vh;
     font-size: 14px;
     padding: 3px;
     -webkit-transition: all 0.1s ease-out;
@@ -73,7 +73,7 @@ header h4 {
     position: absolute;
     display: inline-block;
     left: 58%; 
-    top: 30vh;
+    top: 40vh;
     font-size: 14px;
     padding: 3px;
     -webkit-transition: all 0.3s ease-out;
