@@ -10,7 +10,7 @@ const textConfig = {
   text9: "Vì Anh đẹp tryyyy",
   text10: "Anh biết mà ^^ Yêu Em 300.000",
   text11:
-    "Tối nay Anh qua đón Em đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho Anh đi nàooo",
+    "Tối nay voice THƯƠNG ANH nhaaaaaaaa ♥",
   text12: "Bấm vào đây để xem người yêu anh",
 };
 
@@ -79,8 +79,7 @@ $(document).ready(function () {
   var n = 0;
   $("#no").mousemove(function () {
     // if (n < 1) switchButton();
-    if (n > 1) moveButton();
-    n++;
+    moveButton();
   });
   $("#no").click(() => {
     if (screen.width >= 900) switchButton();
@@ -120,7 +119,7 @@ $(document).ready(function () {
       backdrop: `
                     rgba(0,0,123,0.4)
                     url("img/giphy2.gif")
-                    left top
+                    left -7.8rem top
                     no-repeat
                   `,
       showCancelButton: false,
@@ -155,3 +154,4 @@ $(document).ready(function () {
     });
   });
 });
+
